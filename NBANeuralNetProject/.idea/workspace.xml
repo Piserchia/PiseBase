@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be089a04-05bf-4280-b926-166515e7ab24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NBANeuralNetProject" />
+  </component>
+  <component name="ProjectId" id="1WUk7oB8i1O2xaZelg7AKQkqTWo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\src\neural_net" />
+      <recent name="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\data\Games\2019-2020" />
+      <recent name="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\data\Games\2018-2019" />
+      <recent name="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\data\Games\2017-2018" />
+      <recent name="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\data\Games\2016-2017" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.data_pull (1)">
+    <configuration name="data_pull (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NBANeuralNetProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_processing/data_pull.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_pull" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NBANeuralNetProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Chris Piserchia\Documents\NBANeuralNetProject\src\data_processing\data_pull.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="net" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NBANeuralNetProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/neural_net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/neural_net/net.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.data_pull (1)" />
+        <item itemvalue="Python.net" />
+        <item itemvalue="Python.data_pull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be089a04-05bf-4280-b926-166515e7ab24" name="Default Changelist" comment="" />
+      <created>1579211395931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579211395931</updated>
+      <workItem from="1579211404302" duration="29000" />
+      <workItem from="1579211698198" duration="28795000" />
+      <workItem from="1580095626964" duration="110000" />
+      <workItem from="1580538359656" duration="1650000" />
+      <workItem from="1580924934999" duration="81000" />
+      <workItem from="1595871061496" duration="778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1180" y="276" key="FileChooserDialogImpl" timestamp="1580925013847">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580095728415" />
+    <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579241011028" />
+    <state x="-1180" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580925013847" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580540445915">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579837313449" />
+    <state width="1037" height="282" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@1920.0.1080.1880" timestamp="1579223635554" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1580540445915" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580540445915">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579837313449" />
+    <state width="1037" height="282" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@1920.0.1080.1880" timestamp="1579223635553" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1580540445915" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580540445915">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579837313448" />
+    <state width="1037" height="282" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@1920.0.1080.1880" timestamp="1579223635553" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1580540445915" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580540445915">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579837313449" />
+    <state width="1037" height="282" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@1920.0.1080.1880" timestamp="1579223635554" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1580540445915" />
+    <state x="-1265" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580924949962">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="857" y="427" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580095636262" />
+    <state x="857" y="427" key="com.intellij.ide.util.TipDialog/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579211773589" />
+    <state x="2402" y="772" key="com.intellij.ide.util.TipDialog/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@1920.0.1080.1880" timestamp="1579211422549" />
+    <state x="-1265" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1580924949962" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1580538359698" />
+    <state x="600" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579240475289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1080.1880/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579240475289" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NBANeuralNetProject$data_pull__1_.coverage" NAME="data_pull (1) Coverage Results" MODIFIED="1580538807736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
+    <SUITE FILE_PATH="coverage/NBANeuralNetProject$dataPull.coverage" NAME="data_pull Coverage Results" MODIFIED="1579834829409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
+    <SUITE FILE_PATH="coverage/NBANeuralNetProject$net.coverage" NAME="net Coverage Results" MODIFIED="1579834841382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/neural_net" />
+  </component>
+</project>

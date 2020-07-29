@@ -1,0 +1,16 @@
+PW- Pythagorean Wins: expected wins based on points scored and points allowed
+PL- See above
+MOV- Margin of Victory
+SOS- Strength of Schedule - Points above or below average 
+SRS- Simple Rating System - Team Rating based upon strength of Schedule (0 is average)
+ORtg- Offensive Rating: points per 100 possessions
+DRtg - Defensive Rating: points given up per 100 possessions
+NRtg - Net Rating: ORtg-DRtg
+Pace- An estimate of possessions per 48 minutes
+FTr - Free throw attempt rate: number of ft attempts per fg attempt
+3PAr - Percentage of FG attempts from 3-Point Range
+TS% - True shooting percentage- 
+eFG% - Effective Field Goal Percentage - Statistic adjusts for the fact that 3 point field goals are worth more than 2 point field goals
+TOV% - Turnover Percentage - Estimate of turnovers committed per 100 plays (possessions?)
+ORB% - Offensive Rebound Percentage
+FT/FGA- Free Throws per field goal attempt
