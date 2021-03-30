@@ -108,21 +108,48 @@ def getTeamData():
     return data
 #Returns an array of games which are stored as arrays of "Year, away, away_points, home, home_points
 def getGameData():
-    data = [];
+    data = {};
     yamlfile = '../../data/Games/foldernames.yaml'
     with open(yamlfile, 'r') as file:
         foldernames = yaml.load(file, Loader=yaml.FullLoader)
         folders = foldernames['foldernames']
 
 
-    for folder in folders:
+    for year in folders:
+        data[year]=[]
 
-        games_filepath = '../../data/Games/'+folder
+        games_filepath = '../../data/Games/'+year
         gamesyaml = games_filepath+'/filenames.yaml'
+        with open(gamesyaml, 'r') as year_yaml:
+            csv_names = yaml.load(year_yaml, Loader=yaml.FullLoader)
+            game_files= csv_names['filenames']
+            for game_file in game_files:
+                
+                with open(games_filepath+'/'+game_file, 'r') as games:
+                    readCSV = csv.reader(games)
+
+                    for row in readCSV:
+                        if row[0] != 'Date':
+                            visitor = row[2]
+                            visitor_score = row[3]
+                            home=row[4]
+                            home_score= row[5]
+                            data[year].append((home, home_score,visitor,visitor_score))
+
+    return data
+
+
+def write_data():
+    teamData=getTeamData()
+    gameData=getGameData()
+
+    
+
 teamData = getTeamData()
+gameData =getGameData()
 
 print(teamData['2017-2018']['Philadelphia 76ers'])
 print("############")
 print(teamData['2017-2018']['Detroit Pistons'].keys())
-print(len(gameData))
-
+print("#############")
+print(gameData['2017-2018'])
