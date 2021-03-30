@@ -108,7 +108,7 @@ def getTeamData():
     return data
 #Returns an array of games which are stored as arrays of "Year, away, away_points, home, home_points
 def getGameData():
-    data = {};
+    data = {}
     yamlfile = '../../data/Games/foldernames.yaml'
     with open(yamlfile, 'r') as file:
         foldernames = yaml.load(file, Loader=yaml.FullLoader)
@@ -139,17 +139,37 @@ def getGameData():
     return data
 
 
-def write_data():
+def write_data(filename):
     teamData=getTeamData()
     gameData=getGameData()
+    
+    path = '../../data/combined_data'
+
+    #Set the fields for the CSV file
+    fields = ["home","home_score","home_MOV", "home_ORtg", "home_DRtg", "home_pace", "away", "away_score", "away_MOV", "away_ORtg", "away_DRtg", "away_pace", "year"]
+
+    with open(path+'/'+filename, 'w') as csvfile:
+        csvwriter =csv.writer(csvfile, lineterminator="\n")
+
+        #write the fields 
+        csvwriter.writerow(fields)
+
+        for year in gameData:
+            for game in gameData[year]:
+                home = game[0]
+                home_score = game[1]
+                home_MOV = teamData[year][home]["MOV"]
+                home_ORtg= teamData[year][home]["ORtg"]
+                home_DRtg = teamData[year][home]["DRtg"]
+                home_pace = teamData[year][home]["pace"]
+                away = game[2]
+                away_score=game[3]
+                away_MOV = teamData[year][away]["MOV"]
+                away_ORtg= teamData[year][away]["ORtg"]
+                away_DRtg = teamData[year][away]["DRtg"]
+                away_pace = teamData[year][away]["pace"]
+                row =[home, home_score, home_MOV, home_DRtg, home_ORtg, home_pace, away, away_score, away_MOV, away_ORtg, away_DRtg, away_pace, year]
+                csvwriter.writerow(row)
 
     
-
-teamData = getTeamData()
-gameData =getGameData()
-
-print(teamData['2017-2018']['Philadelphia 76ers'])
-print("############")
-print(teamData['2017-2018']['Detroit Pistons'].keys())
-print("#############")
-print(gameData['2017-2018'])
+write_data("all_games.csv")
